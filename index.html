@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#230d19">
+    <title>For Tracy | My Beiby ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<script src="scripty.js"></script>
+    <div class="ambient"></div>
+    <div id="petals"></div>
+
+    <!-- MUSIC PLAYER -->
+    <audio id="music"src="music\\WhatsApp Audio 2026-11-11 at 8.11.59 PM.mp4" loop></audio>
+
+    <div class="music-control">
+        
+            <div class="music-control">
+    <span class="music-label">Our little melody ♡</span>
+    <button id="musicToggle" class="music-btn">♫</button>
+</div>
+        
+        <input type="file" id="musicUpload" accept="audio/*" hidden>
+        <button id="musicToggle" class="music-btn">▶</button>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <p class="eyebrow">A CELEBRATION OF YOU</p>
+
+        <h1>Happy Birthday</h1>
+
+        <h2 class="name">TRACY</h2>
+
+        <div class="ornament">✧ ── ♥ ── ✧</div>
+
+        <p class="hero-message">
+            To the girl who makes my world a little more beautiful.
+            Today is all about you, my BEIBY.
+        </p>
+
+        <button class="main-btn" id="startBtn">
+            Discover your surprise ♡
+        </button>
+
+        <p class="scroll-note">A little surprise awaits you ↓</p>
+
+    </section>
+
+
+    <!-- LOVE LETTER -->
+    <section class="letter-section" id="letterSection">
+
+        <p class="eyebrow">A LETTER FROM MY HEART</p>
+
+        <h2 class="section-title">Something for you, Beiby...</h2>
+
+        <p class="section-subtitle">
+            There are things I wish I could put into words.
+            Perhaps this little letter is a start.
+        </p>
+
+        <div class="envelope-wrapper" id="envelopeWrapper">
+
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-paper" id="letterPaper">
+
+                    <h3>My Dearest Tracy,</h3>
+
+                    <p>
+                        Happy birthday, my love. ❤️
+                    </p>
+
+                    <p>
+                        I sometimes wonder how one person can become
+                        so special to another. Then I think about you,
+                        and somehow the answer becomes clear.
+                    </p>
+
+                    <p>
+                        I am grateful for your existence, for the person
+                        you are, for your beautiful heart and for all
+                        the little things that make you uniquely you.
+                    </p>
+
+                    <p>
+                        Today, I hope life reminds you of how precious
+                        you are. I hope this new chapter brings you
+                        beautiful opportunities, genuine happiness,
+                        endless laughter and everything your heart
+                        has been quietly wishing for.
+                    </p>
+
+                    <p>
+                        I want you to keep growing, keep dreaming and
+                        keep becoming the beautiful person you are
+                        meant to be.
+                    </p>
+
+                    <p>
+                        And if there is one thing I want you to remember
+                        today, it is this: you are loved, you are
+                        appreciated and your existence means something
+                        beautiful to me.
+                    </p>
+
+                    <p>
+                        I hope I get to celebrate many more birthdays
+                        with you, making memories and discovering
+                        even more reasons to fall in love with you.
+                    </p>
+
+                    <h3 class="letter-signature">
+                        Forever your BEIBY. ❤️
+                    </h3>
+
+                </div>
+
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+
+                <div class="wax-seal">♥</div>
+
+            </div>
+
+        </div>
+
+        <button id="openLetterBtn" class="main-btn">
+            Open my letter 💌
+        </button>
+
+        <p class="hint" id="letterHint">
+            Tap the envelope to open your letter.
+        </p>
+
+    </section>
+
+
+    <!-- BIRTHDAY CAKE -->
+    <section class="cake-section" id="cakeSection">
+
+        <p class="eyebrow">MAKE A WISH, MY LOVE</p>
+
+        <h2 class="section-title">A wish just for you</h2>
+
+        <p class="section-subtitle">
+            Before you make your wish, remember that you deserve
+            every beautiful thing this world has to offer.
+        </p>
+
+        <div class="cake-container">
+
+            <div class="candles" id="candles">
+
+                <div class="candle">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+
+            </div>
+
+            <div class="cake">
+                <div class="icing"></div>
+                <div class="cake-body">
+                    <span>TRACY</span>
+                </div>
+                <div class="cake-base"></div>
+            </div>
+
+        </div>
+
+        <button class="main-btn" id="blowBtn">
+            Blow out your candles ✨
+        </button>
+
+        <p id="wishMessage" class="wish-message"></p>
+
+    </section>
+
+
+    <!-- PHOTO GALLERY -->
+    <section class="gallery-section" id="gallerySection">
+
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+
+        <h2 class="section-title">Our Little Gallery</h2>
+
+        <p class="section-subtitle">
+            Every picture tells a story. Add some of your
+            favourite memories here.
+        </p>
+
+        <label for="photoUpload" class="upload-btn">
+            <img src="images/ivine image.jpeg" alt="Upload Photo">
+        </label>
+
+        <input type="file" id="photoUpload" accept="image/*" multiple hidden>
+
+        <div class="gallery" id="gallery">
+
+            <div class="gallery-placeholder">
+                <span>♡</span>
+                <p>Your beautiful memories will live here.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+    <section class="final-section" id="finalSection">
+
+        <div class="final-heart">♥</div>
+
+        <p class="eyebrow">ONE LAST THING...</p>
+
+        <h2 class="final-title">
+            To my beautiful BEIBY
+        </h2>
+
+        <p class="final-message">
+            The world became a little more beautiful
+            the moment you became part of my story.
+        </p>
+
+        <p class="final-message">
+            May this new chapter be gentle with your heart,
+            generous with your dreams and full of moments
+            that remind you how wonderful life can be.
+        </p>
+
+        <h2 class="forever">I love you, Tracy. ❤️</h2>
+
+        <div class="ornament">✧ ── ♥ ── ✧</div>
+
+        <p class="footer">
+            Made with love, exclusively for you.
+        </p>
+
+        <button class="main-btn" id="replayBtn">
+            Relive the magic ↻
+        </button>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
